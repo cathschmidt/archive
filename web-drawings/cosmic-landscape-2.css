@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: linear-gradient(#615e8e, #f3ff90, #ffcfb3) no-repeat;
+	overflow: hidden;
+}
+
+.trap-group {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.trap-left {
+	border-left: 48vw solid transparent;
+	border-top: 19vh solid #ff7d7d;
+	border-right: 1vw solid #ff7d7d;
+	height: 81vh;
+	margin-right: .5vw;
+	z-index: 10;
+}
+
+.trap-right {
+	border-right: 49vw solid transparent;
+	border-top: 100vh solid rgba(255, 71, 0, 0.75);
+	border-left: 20vw solid rgba(0, 114, 255, 0.62);
+	margin-left: .5vw;
+	filter: blur(100px);
+	z-index: 1;
+}

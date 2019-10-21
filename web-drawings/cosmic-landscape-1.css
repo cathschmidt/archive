@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: linear-gradient(#ffc4ed, #60c1cc, #82411b) no-repeat;
+}
+
+.trapezoid {
+	background-color: transparent;
+
+	width: 80vw;
+	margin: auto;
+
+	height: 0;
+
+	border-left: 10vw solid transparent;
+	border-right: 10vw solid transparent;
+	border-top: 50vh solid #a93b11;
+
+}
+
+.field {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100vw;
+	height: 40vh;
+	background: linear-gradient(rgba(255, 196, 237, 0.2), rgba(43, 27, 130, 0.21)) no-repeat;
+
+	filter: blur(2px);
+}
+
+.line1 {
+	position: absolute;
+	bottom: 40vh;
+	width: 95vw;
+	left: 2.5vw;
+	border-radius: 50%;
+	height: 2px;
+	background-color: yellow;
+	filter: blur(1px);
+}
+
+.line2 {
+	position: absolute;
+	top: 50vh;
+	width: 80vw;
+	left: 10vw;
+	height: 1px;
+	background-color: white;
+}
