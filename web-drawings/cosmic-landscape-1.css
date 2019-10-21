@@ -4,7 +4,7 @@
 }
 
 body {
-	background: linear-gradient(#ffc4ed, #60c1cc, #82411b) no-repeat;
+	background: linear-gradient(#ffc4ed, #60c1cc, #82411b) no-repeat fixed;
 }
 
 .trapezoid {
